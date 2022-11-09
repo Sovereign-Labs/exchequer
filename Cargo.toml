@@ -1,0 +1,10 @@
+[package]
+name = "exchequer"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sovereign-sdk = { path = "../sovereign-sdk" }
+jmt = { git = "https://github.com/penumbra-zone/jmt.git" }
